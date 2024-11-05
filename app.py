@@ -8,7 +8,6 @@ def receive_webhook():
     """
     Receives a webhook payload.
     """
-
     # Try to parse a webhook payload, get upset if we couldn't
     # parse any JSON in the body:
     if request.is_json:
